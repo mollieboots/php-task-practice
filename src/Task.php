@@ -27,5 +27,10 @@
         {
             return $_SESSION['task-list'];
         }
+
+        static function deleteAll()
+        {
+            $_SESSION['task-list'] = array();
+        }
     }
 ?>
