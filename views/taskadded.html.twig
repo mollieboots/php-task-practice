@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h1>New task added!</h1>
+        <div>Your task: {{ newtask.getDesc }}</div>
+        <a href='/'>Go To List</a>
+        <form action='/taskdeleted' method='post'><button type='submit'>Clear Tasks</button></form>
+    </body>
+</html>
